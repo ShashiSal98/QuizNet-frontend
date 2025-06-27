@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QuizNetFrontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# QuizNet-frontend
+Angular-based frontend for QuizNet exam portal with user and admin views
+>>>>>>> 53466b3820fb7956ca82a4061641616f8aae8102
