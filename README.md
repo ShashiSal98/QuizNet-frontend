@@ -1,6 +1,6 @@
 # QuizNet-Frontend
 
-![QuizNet](https://github.com/user-attachments/assets/90249b67-1a3b-495c-aeb8-8b468663fbbe)
+![Screenshot 2025-06-27 205241](https://github.com/user-attachments/assets/70554934-a657-40c6-8fd5-149de44e5371)
 
 QuizNet-Frontend is an Angular-based frontend for the QuizNet exam portal, supporting both user and admin views. Users can take quizzes, view results, and admins can manage quizzes and questions.
 
