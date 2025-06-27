@@ -11,21 +11,27 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular/build:application",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "outputPath": "dist/quizNet-frontend",
+            "index": "src/index.html",
             "browser": "src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css",
+              "node_modules/sweetalert2/src/sweetalert2.scss",
+              "./node_modules/bootstrap-grid-only-css/dist/css/bootstrap-grid.min.css"
             ],
+            "scripts": [],
             "server": "src/main.server.ts",
-            "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
             }
@@ -55,7 +61,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular/build:dev-server",
+          "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
               "buildTarget": "quizNet-frontend:build:production"
@@ -67,24 +73,31 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
+          "builder": "@angular-devkit/build-angular:extract-i18n"
         },
         "test": {
           "builder": "@angular/build:karma",
           "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
-            ]
+            ],
+            "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "226a7e1f-7fd1-4c69-ac7a-0c19997b115f"
   }
 }

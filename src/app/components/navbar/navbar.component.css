@@ -1,0 +1,27 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-icon{
+  border-color: white;
+  background-color: #4caf9d;
+  border: none;
+  margin: 1% 1%;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.nav-btn-title{
+margin-top: 0%;
+}
+mat-icon{
+  margin-top: 5%;
+}
+.nav-heading{
+  color: black;
+  text-decoration: none;
+}
+.custom-toolbar {
+  background-color: #4caf9d;
+  color: white; 
+}

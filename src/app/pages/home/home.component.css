@@ -1,0 +1,20 @@
+.wrapper {
+  background-image: url('/assets/ex2.png'); /* use absolute path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.80); /* Optional white background for readability */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+h1, p {
+  color: #333;
+}

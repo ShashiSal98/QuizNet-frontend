@@ -1,0 +1,41 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+    .dashboard-container {
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+    }
+    .admin-image {
+      margin: 20px 0;
+    }
+    .admin-image img {
+      width: 500px;
+      height: auto;
+    }
+    p {
+      color: #555;
+      font-size: 1.1em;
+    }
+    .admin-actions {
+      margin-top: 30px;
+    }
+    .admin-actions a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .admin-actions a:hover {
+      background: #0056b3;
+    }

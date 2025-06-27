@@ -1,0 +1,29 @@
+.margin {
+  margin-top: 4%;
+}
+
+mat-card {
+
+  background-color: rgba(239, 169, 228, 0.485);
+}
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.example-header-image
+{
+  background-image: url("../../../../assets/quiz_icon.png");
+  background-size: cover;
+}
+
+.btn{
+  margin-right: 1%;
+}
+.buttons{
+  margin-top: 5%;
+}
