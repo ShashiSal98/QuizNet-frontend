@@ -1,64 +1,88 @@
-<<<<<<< HEAD
-# QuizNetFrontend
+# QuizNet-Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+![QuizNet](https://github.com/user-attachments/assets/90249b67-1a3b-495c-aeb8-8b468663fbbe)
 
-## Development server
+QuizNet-Frontend is an Angular-based frontend for the QuizNet exam portal, supporting both user and admin views. Users can take quizzes, view results, and admins can manage quizzes and questions.
 
-To start a local development server, run:
+## Features
 
-```bash
+- User dashboard to browse and attempt quizzes
+- Admin dashboard to add, update, and delete quizzes and questions
+- Authentication and authorization
+- Responsive UI with Angular Material
+- Real-time quiz timer and result calculation
+- SweetAlert2 for user-friendly alerts
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- Angular CLI (`npm install -g @angular/cli`)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/quizNet-frontend.git
+   cd quizNet-frontend
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+### Development Server
+
+Start the local development server:
+```sh
 ng serve
 ```
+Navigate to [http://localhost:4200/](http://localhost:4200/) in your browser.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Building
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
+To build the project for production:
+```sh
 ng build
 ```
+The build artifacts will be stored in the `dist/` directory.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Running Unit Tests
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
+To execute unit tests:
+```sh
 ng test
 ```
 
-## Running end-to-end tests
+### Running End-to-End Tests
 
-For end-to-end (e2e) testing, run:
-
-```bash
+To run e2e tests:
+```sh
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Customization
 
-## Additional Resources
+- Update API endpoints in the services as needed.
+- Modify Angular Material themes in `styles.css` or component styles.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# QuizNet-frontend
-Angular-based frontend for QuizNet exam portal with user and admin views
->>>>>>> 53466b3820fb7956ca82a4061641616f8aae8102
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+For more information, see the [Angular CLI documentation](https://angular.dev/tools/cli)
+
+
+## Author
+[Shashi Salwathura](https://github.com/ShashiSal98)
+
+Happy Coding! 🚀
